@@ -1,0 +1,138 @@
+{
+  "bulbasaur": {"name": "妙蛙种子", "dex": 1, "types": ["grass", "poison"], "base": {"hp": 45, "atk": 49, "def": 49, "spa": 65, "spd": 65, "spe": 45}, "catch_rate": 45, "evolve": {"to": "ivysaur", "level": 16},
+    "learnset": [[1, "tackle"], [1, "growl"], [4, "vine_whip"], [8, "poison_powder"], [12, "razor_leaf"], [16, "sleep_powder"], [20, "mega_drain"], [26, "sludge_bomb"], [32, "giga_drain"], [40, "solar_beam"]]},
+  "ivysaur": {"name": "妙蛙草", "dex": 2, "types": ["grass", "poison"], "base": {"hp": 60, "atk": 62, "def": 63, "spa": 80, "spd": 80, "spe": 60}, "catch_rate": 45, "evolve": {"to": "venusaur", "level": 32}, "learnset_ref": "bulbasaur"},
+  "venusaur": {"name": "妙蛙花", "dex": 3, "types": ["grass", "poison"], "base": {"hp": 80, "atk": 82, "def": 83, "spa": 100, "spd": 100, "spe": 80}, "catch_rate": 45, "learnset_ref": "bulbasaur", "learnset_extra": [[48, "earthquake"]]},
+
+  "charmander": {"name": "小火龙", "dex": 4, "types": ["fire"], "base": {"hp": 39, "atk": 52, "def": 43, "spa": 60, "spd": 50, "spe": 65}, "catch_rate": 45, "evolve": {"to": "charmeleon", "level": 16},
+    "learnset": [[1, "scratch"], [1, "growl"], [5, "ember"], [10, "metal_claw"], [14, "fire_fang"], [19, "slash"], [24, "flamethrower"], [30, "dragon_claw"], [36, "fire_blast"], [42, "flare_blitz"]]},
+  "charmeleon": {"name": "火恐龙", "dex": 5, "types": ["fire"], "base": {"hp": 58, "atk": 64, "def": 58, "spa": 80, "spd": 65, "spe": 80}, "catch_rate": 45, "evolve": {"to": "charizard", "level": 36}, "learnset_ref": "charmander"},
+  "charizard": {"name": "喷火龙", "dex": 6, "types": ["fire", "flying"], "base": {"hp": 78, "atk": 84, "def": 78, "spa": 109, "spd": 85, "spe": 100}, "catch_rate": 45, "learnset_ref": "charmander", "learnset_extra": [[36, "air_slash"], [46, "brave_bird"]]},
+
+  "squirtle": {"name": "杰尼龟", "dex": 7, "types": ["water"], "base": {"hp": 44, "atk": 48, "def": 65, "spa": 50, "spd": 64, "spe": 43}, "catch_rate": 45, "evolve": {"to": "wartortle", "level": 16},
+    "learnset": [[1, "tackle"], [1, "tail_whip"], [4, "water_gun"], [8, "bite"], [13, "bubble_beam"], [18, "aqua_tail"], [24, "crunch"], [30, "surf"], [36, "ice_beam"], [42, "hydro_pump"]]},
+  "wartortle": {"name": "卡咪龟", "dex": 8, "types": ["water"], "base": {"hp": 59, "atk": 63, "def": 80, "spa": 65, "spd": 80, "spe": 58}, "catch_rate": 45, "evolve": {"to": "blastoise", "level": 36}, "learnset_ref": "squirtle"},
+  "blastoise": {"name": "水箭龟", "dex": 9, "types": ["water"], "base": {"hp": 79, "atk": 83, "def": 100, "spa": 85, "spd": 105, "spe": 78}, "catch_rate": 45, "learnset_ref": "squirtle", "learnset_extra": [[46, "flash_cannon"]]},
+
+  "caterpie": {"name": "绿毛虫", "dex": 10, "types": ["bug"], "base": {"hp": 45, "atk": 30, "def": 35, "spa": 20, "spd": 20, "spe": 45}, "catch_rate": 255, "evolve": {"to": "metapod", "level": 7},
+    "learnset": [[1, "tackle"], [1, "string_shot"], [6, "bug_bite"]]},
+  "metapod": {"name": "铁甲蛹", "dex": 11, "types": ["bug"], "base": {"hp": 50, "atk": 20, "def": 55, "spa": 25, "spd": 25, "spe": 30}, "catch_rate": 120, "evolve": {"to": "butterfree", "level": 10},
+    "learnset": [[1, "tackle"], [1, "harden"], [7, "bug_bite"]]},
+  "butterfree": {"name": "巴大蝶", "dex": 12, "types": ["bug", "flying"], "base": {"hp": 60, "atk": 45, "def": 50, "spa": 90, "spd": 80, "spe": 70}, "catch_rate": 45,
+    "learnset": [[1, "gust"], [1, "confusion"], [12, "poison_powder"], [14, "sleep_powder"], [18, "psybeam"], [24, "air_slash"], [30, "bug_bite"], [36, "psychic"]]},
+
+  "pidgey": {"name": "波波", "dex": 16, "types": ["normal", "flying"], "base": {"hp": 40, "atk": 45, "def": 40, "spa": 35, "spd": 35, "spe": 56}, "catch_rate": 255, "evolve": {"to": "pidgeotto", "level": 18},
+    "learnset": [[1, "tackle"], [5, "gust"], [9, "quick_attack"], [13, "wing_attack"], [21, "take_down"], [29, "air_slash"], [37, "brave_bird"]]},
+  "pidgeotto": {"name": "比比鸟", "dex": 17, "types": ["normal", "flying"], "base": {"hp": 63, "atk": 60, "def": 55, "spa": 50, "spd": 50, "spe": 71}, "catch_rate": 120, "evolve": {"to": "pidgeot", "level": 36}, "learnset_ref": "pidgey"},
+  "pidgeot": {"name": "大比鸟", "dex": 18, "types": ["normal", "flying"], "base": {"hp": 83, "atk": 80, "def": 75, "spa": 70, "spd": 70, "spe": 101}, "catch_rate": 45, "learnset_ref": "pidgey"},
+
+  "rattata": {"name": "小拉达", "dex": 19, "types": ["normal"], "base": {"hp": 30, "atk": 56, "def": 35, "spa": 25, "spd": 35, "spe": 72}, "catch_rate": 255, "evolve": {"to": "raticate", "level": 20},
+    "learnset": [[1, "tackle"], [1, "tail_whip"], [4, "quick_attack"], [10, "bite"], [16, "headbutt"], [22, "crunch"], [28, "take_down"], [34, "body_slam"], [40, "hyper_beam"]]},
+  "raticate": {"name": "拉达", "dex": 20, "types": ["normal"], "base": {"hp": 55, "atk": 81, "def": 60, "spa": 50, "spd": 70, "spe": 97}, "catch_rate": 127, "learnset_ref": "rattata"},
+
+  "pikachu": {"name": "皮卡丘", "dex": 25, "types": ["electric"], "base": {"hp": 35, "atk": 55, "def": 40, "spa": 50, "spd": 50, "spe": 90}, "catch_rate": 190, "evolve": {"to": "raichu", "level": 30},
+    "learnset": [[1, "thunder_shock"], [1, "growl"], [5, "quick_attack"], [9, "thunder_wave"], [14, "thunder_punch"], [20, "iron_tail"], [26, "thunderbolt"], [34, "body_slam"], [42, "thunder"]]},
+  "raichu": {"name": "雷丘", "dex": 26, "types": ["electric"], "base": {"hp": 60, "atk": 90, "def": 55, "spa": 90, "spd": 80, "spe": 110}, "catch_rate": 75, "learnset_ref": "pikachu"},
+
+  "sandshrew": {"name": "穿山鼠", "dex": 27, "types": ["ground"], "base": {"hp": 50, "atk": 75, "def": 85, "spa": 20, "spd": 30, "spe": 40}, "catch_rate": 255, "evolve": {"to": "sandslash", "level": 22},
+    "learnset": [[1, "scratch"], [1, "defense_curl"], [5, "mud_shot"], [9, "rock_throw"], [14, "metal_claw"], [19, "slash"], [24, "dig"], [30, "x_scissor"], [36, "earthquake"], [42, "stone_edge"]]},
+  "sandslash": {"name": "穿山王", "dex": 28, "types": ["ground"], "base": {"hp": 75, "atk": 100, "def": 110, "spa": 45, "spd": 55, "spe": 65}, "catch_rate": 90, "learnset_ref": "sandshrew"},
+
+  "clefairy": {"name": "皮皮", "dex": 35, "types": ["fairy"], "base": {"hp": 70, "atk": 45, "def": 48, "spa": 60, "spd": 65, "spe": 35}, "catch_rate": 150, "evolve": {"to": "clefable", "level": 30},
+    "learnset": [[1, "fairy_wind"], [1, "growl"], [5, "sing"], [10, "psybeam"], [16, "body_slam"], [22, "calm_mind"], [28, "moonblast"], [34, "recover"], [40, "psychic"]]},
+  "clefable": {"name": "皮可西", "dex": 36, "types": ["fairy"], "base": {"hp": 95, "atk": 70, "def": 73, "spa": 95, "spd": 90, "spe": 60}, "catch_rate": 25, "learnset_ref": "clefairy"},
+
+  "vulpix": {"name": "六尾", "dex": 37, "types": ["fire"], "base": {"hp": 38, "atk": 41, "def": 40, "spa": 50, "spd": 65, "spe": 65}, "catch_rate": 190, "evolve": {"to": "ninetales", "level": 30},
+    "learnset": [[1, "ember"], [1, "tail_whip"], [6, "quick_attack"], [12, "fire_fang"], [17, "hypnosis"], [23, "flamethrower"], [30, "dark_pulse"], [36, "fire_blast"]]},
+  "ninetales": {"name": "九尾", "dex": 38, "types": ["fire"], "base": {"hp": 73, "atk": 76, "def": 75, "spa": 81, "spd": 100, "spe": 100}, "catch_rate": 75, "learnset_ref": "vulpix", "learnset_extra": [[42, "calm_mind"]]},
+
+  "zubat": {"name": "超音蝠", "dex": 41, "types": ["poison", "flying"], "base": {"hp": 40, "atk": 45, "def": 35, "spa": 30, "spd": 40, "spe": 55}, "catch_rate": 255, "evolve": {"to": "golbat", "level": 22},
+    "learnset": [[1, "poison_sting"], [5, "bite"], [10, "wing_attack"], [16, "leech_life"], [22, "air_slash"], [28, "crunch"], [34, "sludge_bomb"], [40, "brave_bird"]]},
+  "golbat": {"name": "大嘴蝠", "dex": 42, "types": ["poison", "flying"], "base": {"hp": 75, "atk": 80, "def": 70, "spa": 65, "spd": 75, "spe": 90}, "catch_rate": 90, "learnset_ref": "zubat"},
+
+  "oddish": {"name": "走路草", "dex": 43, "types": ["grass", "poison"], "base": {"hp": 45, "atk": 50, "def": 55, "spa": 75, "spd": 65, "spe": 30}, "catch_rate": 255, "evolve": {"to": "gloom", "level": 21},
+    "learnset": [[1, "absorb"], [1, "growl"], [5, "poison_powder"], [9, "sleep_powder"], [14, "mega_drain"], [20, "sludge_bomb"], [26, "giga_drain"], [32, "moonblast"], [38, "solar_beam"]]},
+  "gloom": {"name": "臭臭花", "dex": 44, "types": ["grass", "poison"], "base": {"hp": 60, "atk": 65, "def": 70, "spa": 85, "spd": 75, "spe": 40}, "catch_rate": 120, "learnset_ref": "oddish"},
+
+  "psyduck": {"name": "可达鸭", "dex": 54, "types": ["water"], "base": {"hp": 50, "atk": 52, "def": 48, "spa": 65, "spd": 50, "spe": 55}, "catch_rate": 190, "evolve": {"to": "golduck", "level": 33},
+    "learnset": [[1, "scratch"], [1, "tail_whip"], [4, "water_gun"], [9, "confusion"], [14, "bubble_beam"], [20, "psybeam"], [26, "surf"], [32, "calm_mind"], [38, "psychic"], [44, "hydro_pump"]]},
+  "golduck": {"name": "哥达鸭", "dex": 55, "types": ["water"], "base": {"hp": 80, "atk": 82, "def": 78, "spa": 95, "spd": 80, "spe": 85}, "catch_rate": 75, "learnset_ref": "psyduck"},
+
+  "growlithe": {"name": "卡蒂狗", "dex": 58, "types": ["fire"], "base": {"hp": 55, "atk": 70, "def": 45, "spa": 70, "spd": 50, "spe": 60}, "catch_rate": 190, "evolve": {"to": "arcanine", "level": 30},
+    "learnset": [[1, "bite"], [1, "growl"], [5, "ember"], [10, "quick_attack"], [15, "fire_fang"], [22, "take_down"], [28, "flamethrower"], [34, "crunch"], [40, "flare_blitz"]]},
+  "arcanine": {"name": "风速狗", "dex": 59, "types": ["fire"], "base": {"hp": 90, "atk": 110, "def": 80, "spa": 100, "spd": 80, "spe": 95}, "catch_rate": 75, "learnset_ref": "growlithe", "learnset_extra": [[46, "close_combat"]]},
+
+  "abra": {"name": "凯西", "dex": 63, "types": ["psychic"], "base": {"hp": 25, "atk": 20, "def": 15, "spa": 105, "spd": 55, "spe": 90}, "catch_rate": 200, "evolve": {"to": "kadabra", "level": 16},
+    "learnset": [[1, "confusion"], [16, "psybeam"], [22, "calm_mind"], [28, "psychic"], [34, "shadow_ball"], [40, "recover"]]},
+  "kadabra": {"name": "勇基拉", "dex": 64, "types": ["psychic"], "base": {"hp": 40, "atk": 35, "def": 30, "spa": 120, "spd": 70, "spe": 105}, "catch_rate": 100, "evolve": {"to": "alakazam", "level": 36}, "learnset_ref": "abra"},
+  "alakazam": {"name": "胡地", "dex": 65, "types": ["psychic"], "base": {"hp": 55, "atk": 50, "def": 45, "spa": 135, "spd": 95, "spe": 120}, "catch_rate": 50, "learnset_ref": "abra", "learnset_extra": [[46, "dark_pulse"]]},
+
+  "machop": {"name": "腕力", "dex": 66, "types": ["fighting"], "base": {"hp": 70, "atk": 80, "def": 50, "spa": 35, "spd": 35, "spe": 35}, "catch_rate": 180, "evolve": {"to": "machoke", "level": 28},
+    "learnset": [[1, "low_kick"], [1, "growl"], [6, "karate_chop"], [12, "headbutt"], [18, "bulk_up"], [24, "rock_slide"], [30, "cross_chop"], [36, "thunder_punch"], [42, "close_combat"], [48, "stone_edge"]]},
+  "machoke": {"name": "豪力", "dex": 67, "types": ["fighting"], "base": {"hp": 80, "atk": 100, "def": 70, "spa": 50, "spd": 60, "spe": 45}, "catch_rate": 90, "evolve": {"to": "machamp", "level": 40}, "learnset_ref": "machop"},
+  "machamp": {"name": "怪力", "dex": 68, "types": ["fighting"], "base": {"hp": 90, "atk": 130, "def": 80, "spa": 65, "spd": 85, "spe": 55}, "catch_rate": 45, "learnset_ref": "machop"},
+
+  "geodude": {"name": "小拳石", "dex": 74, "types": ["rock", "ground"], "base": {"hp": 40, "atk": 80, "def": 100, "spa": 30, "spd": 30, "spe": 20}, "catch_rate": 255, "evolve": {"to": "graveler", "level": 25},
+    "learnset": [[1, "tackle"], [1, "defense_curl"], [6, "rock_throw"], [11, "mud_shot"], [16, "rock_slide"], [22, "dig"], [28, "take_down"], [34, "earthquake"], [40, "stone_edge"]]},
+  "graveler": {"name": "隆隆石", "dex": 75, "types": ["rock", "ground"], "base": {"hp": 55, "atk": 95, "def": 115, "spa": 45, "spd": 45, "spe": 35}, "catch_rate": 120, "evolve": {"to": "golem", "level": 40}, "learnset_ref": "geodude"},
+  "golem": {"name": "隆隆岩", "dex": 76, "types": ["rock", "ground"], "base": {"hp": 80, "atk": 120, "def": 130, "spa": 55, "spd": 65, "spe": 45}, "catch_rate": 45, "learnset_ref": "geodude"},
+
+  "magnemite": {"name": "小磁怪", "dex": 81, "types": ["electric", "steel"], "base": {"hp": 25, "atk": 35, "def": 70, "spa": 95, "spd": 55, "spe": 45}, "catch_rate": 190, "evolve": {"to": "magneton", "level": 30},
+    "learnset": [[1, "tackle"], [1, "thunder_shock"], [6, "thunder_wave"], [12, "metal_claw"], [22, "thunderbolt"], [28, "flash_cannon"], [36, "thunder"]]},
+  "magneton": {"name": "三合一磁怪", "dex": 82, "types": ["electric", "steel"], "base": {"hp": 50, "atk": 60, "def": 95, "spa": 120, "spd": 70, "spe": 70}, "catch_rate": 60, "learnset_ref": "magnemite"},
+
+  "gastly": {"name": "鬼斯", "dex": 92, "types": ["ghost", "poison"], "base": {"hp": 30, "atk": 35, "def": 30, "spa": 100, "spd": 35, "spe": 80}, "catch_rate": 190, "evolve": {"to": "haunter", "level": 25},
+    "learnset": [[1, "lick"], [1, "hypnosis"], [9, "confusion"], [15, "shadow_claw"], [22, "shadow_ball"], [28, "sludge_bomb"], [34, "dark_pulse"], [40, "psychic"]]},
+  "haunter": {"name": "鬼斯通", "dex": 93, "types": ["ghost", "poison"], "base": {"hp": 45, "atk": 50, "def": 45, "spa": 115, "spd": 55, "spe": 95}, "catch_rate": 90, "evolve": {"to": "gengar", "level": 40}, "learnset_ref": "gastly"},
+  "gengar": {"name": "耿鬼", "dex": 94, "types": ["ghost", "poison"], "base": {"hp": 60, "atk": 65, "def": 60, "spa": 130, "spd": 75, "spe": 110}, "catch_rate": 45, "learnset_ref": "gastly", "learnset_extra": [[46, "thunderbolt"]]},
+
+  "onix": {"name": "大岩蛇", "dex": 95, "types": ["rock", "ground"], "base": {"hp": 35, "atk": 45, "def": 160, "spa": 30, "spd": 45, "spe": 70}, "catch_rate": 45, "evolve": {"to": "steelix", "level": 40},
+    "learnset": [[1, "tackle"], [1, "harden"], [6, "rock_throw"], [12, "headbutt"], [18, "rock_slide"], [24, "dig"], [30, "iron_tail"], [36, "earthquake"], [42, "stone_edge"]]},
+  "steelix": {"name": "大钢蛇", "dex": 208, "types": ["steel", "ground"], "base": {"hp": 75, "atk": 85, "def": 200, "spa": 55, "spd": 65, "spe": 30}, "catch_rate": 25, "learnset_ref": "onix", "learnset_extra": [[1, "metal_claw"], [44, "crunch"]]},
+
+  "cubone": {"name": "卡拉卡拉", "dex": 104, "types": ["ground"], "base": {"hp": 50, "atk": 50, "def": 95, "spa": 40, "spd": 50, "spe": 35}, "catch_rate": 190, "evolve": {"to": "marowak", "level": 28},
+    "learnset": [[1, "tackle"], [1, "growl"], [5, "mud_shot"], [10, "headbutt"], [15, "bone_club"], [22, "dig"], [28, "bonemerang"], [34, "earthquake"], [40, "stone_edge"]]},
+  "marowak": {"name": "嘎啦嘎啦", "dex": 105, "types": ["ground"], "base": {"hp": 60, "atk": 80, "def": 110, "spa": 50, "spd": 80, "spe": 45}, "catch_rate": 75, "learnset_ref": "cubone"},
+
+  "scyther": {"name": "飞天螳螂", "dex": 123, "types": ["bug", "flying"], "base": {"hp": 70, "atk": 110, "def": 80, "spa": 55, "spd": 80, "spe": 105}, "catch_rate": 45,
+    "learnset": [[1, "quick_attack"], [6, "wing_attack"], [12, "bug_bite"], [18, "slash"], [24, "swords_dance"], [30, "x_scissor"], [36, "shadow_claw"], [42, "close_combat"]]},
+
+  "magikarp": {"name": "鲤鱼王", "dex": 129, "types": ["water"], "base": {"hp": 20, "atk": 10, "def": 55, "spa": 15, "spd": 20, "spe": 80}, "catch_rate": 255, "evolve": {"to": "gyarados", "level": 20},
+    "learnset": [[1, "splash"], [15, "tackle"]]},
+  "gyarados": {"name": "暴鲤龙", "dex": 130, "types": ["water", "flying"], "base": {"hp": 95, "atk": 125, "def": 79, "spa": 60, "spd": 100, "spe": 81}, "catch_rate": 45,
+    "learnset": [[1, "tackle"], [1, "bite"], [24, "aqua_tail"], [30, "crunch"], [36, "dragon_dance"], [42, "outrage"], [48, "hyper_beam"]]},
+
+  "lapras": {"name": "拉普拉斯", "dex": 131, "types": ["water", "ice"], "base": {"hp": 130, "atk": 85, "def": 80, "spa": 85, "spd": 95, "spe": 60}, "catch_rate": 45,
+    "learnset": [[1, "water_gun"], [1, "growl"], [7, "sing"], [12, "bubble_beam"], [18, "body_slam"], [24, "ice_beam"], [30, "surf"], [36, "psychic"], [42, "blizzard"], [48, "hydro_pump"]]},
+
+  "eevee": {"name": "伊布", "dex": 133, "types": ["normal"], "base": {"hp": 55, "atk": 55, "def": 50, "spa": 45, "spd": 65, "spe": 55}, "catch_rate": 45,
+    "learnset": [[1, "tackle"], [1, "tail_whip"], [5, "quick_attack"], [10, "bite"], [15, "headbutt"], [20, "take_down"], [30, "body_slam"], [36, "shadow_ball"], [42, "hyper_beam"]]},
+
+  "snorlax": {"name": "卡比兽", "dex": 143, "types": ["normal"], "base": {"hp": 160, "atk": 110, "def": 65, "spa": 65, "spd": 110, "spe": 30}, "catch_rate": 25,
+    "learnset": [[1, "tackle"], [1, "defense_curl"], [8, "headbutt"], [16, "bite"], [24, "body_slam"], [30, "crunch"], [36, "earthquake"], [42, "hyper_beam"]]},
+
+  "articuno": {"name": "急冻鸟", "dex": 144, "types": ["ice", "flying"], "base": {"hp": 90, "atk": 85, "def": 100, "spa": 95, "spd": 125, "spe": 85}, "catch_rate": 10, "legendary": true,
+    "learnset": [[1, "gust"], [1, "ice_shard"], [20, "aurora_beam"], [30, "air_slash"], [40, "ice_beam"], [50, "calm_mind"], [60, "blizzard"]]},
+  "zapdos": {"name": "闪电鸟", "dex": 145, "types": ["electric", "flying"], "base": {"hp": 90, "atk": 90, "def": 85, "spa": 125, "spd": 90, "spe": 100}, "catch_rate": 10, "legendary": true,
+    "learnset": [[1, "peck"], [1, "thunder_shock"], [20, "thunder_wave"], [30, "air_slash"], [40, "thunderbolt"], [50, "calm_mind"], [60, "thunder"]]},
+  "moltres": {"name": "火焰鸟", "dex": 146, "types": ["fire", "flying"], "base": {"hp": 90, "atk": 100, "def": 90, "spa": 125, "spd": 85, "spe": 90}, "catch_rate": 10, "legendary": true,
+    "learnset": [[1, "wing_attack"], [1, "ember"], [20, "fire_fang"], [30, "air_slash"], [40, "flamethrower"], [50, "calm_mind"], [60, "fire_blast"]]},
+
+  "dratini": {"name": "迷你龙", "dex": 147, "types": ["dragon"], "base": {"hp": 41, "atk": 64, "def": 45, "spa": 50, "spd": 50, "spe": 50}, "catch_rate": 45, "evolve": {"to": "dragonair", "level": 30},
+    "learnset": [[1, "tackle"], [1, "tail_whip"], [5, "thunder_wave"], [11, "dragon_breath"], [18, "aqua_tail"], [25, "dragon_claw"], [32, "dragon_dance"], [40, "outrage"], [48, "hyper_beam"]]},
+  "dragonair": {"name": "哈克龙", "dex": 148, "types": ["dragon"], "base": {"hp": 61, "atk": 84, "def": 65, "spa": 70, "spd": 70, "spe": 70}, "catch_rate": 45, "evolve": {"to": "dragonite", "level": 55}, "learnset_ref": "dratini"},
+  "dragonite": {"name": "快龙", "dex": 149, "types": ["dragon", "flying"], "base": {"hp": 91, "atk": 134, "def": 95, "spa": 100, "spd": 100, "spe": 80}, "catch_rate": 45, "learnset_ref": "dratini", "learnset_extra": [[55, "wing_attack"], [60, "earthquake"]]},
+
+  "mewtwo": {"name": "超梦", "dex": 150, "types": ["psychic"], "base": {"hp": 106, "atk": 110, "def": 90, "spa": 154, "spd": 90, "spe": 130}, "catch_rate": 5, "legendary": true,
+    "learnset": [[1, "confusion"], [10, "psybeam"], [20, "recover"], [30, "shadow_ball"], [40, "calm_mind"], [50, "psychic"], [60, "ice_beam"], [70, "thunderbolt"]]},
+  "mew": {"name": "梦幻", "dex": 151, "types": ["psychic"], "base": {"hp": 100, "atk": 100, "def": 100, "spa": 100, "spd": 100, "spe": 100}, "catch_rate": 8, "legendary": true,
+    "learnset": [[1, "confusion"], [10, "psybeam"], [20, "ancient_power"], [30, "recover"], [40, "psychic"], [50, "moonblast"], [60, "flamethrower"]]},
+
+  "sneasel": {"name": "狃拉", "dex": 215, "types": ["dark", "ice"], "base": {"hp": 55, "atk": 95, "def": 55, "spa": 35, "spd": 75, "spe": 115}, "catch_rate": 60,
+    "learnset": [[1, "scratch"], [5, "ice_shard"], [10, "quick_attack"], [15, "bite"], [20, "metal_claw"], [26, "slash"], [32, "ice_punch"], [38, "crunch"], [44, "swords_dance"]]},
+
+  "larvitar": {"name": "幼基拉斯", "dex": 246, "types": ["rock", "ground"], "base": {"hp": 50, "atk": 64, "def": 50, "spa": 45, "spd": 50, "spe": 41}, "catch_rate": 45, "evolve": {"to": "pupitar", "level": 30},
+    "learnset": [[1, "bite"], [1, "tail_whip"], [5, "rock_throw"], [10, "mud_shot"], [15, "headbutt"], [20, "rock_slide"], [26, "crunch"], [32, "dig"], [38, "earthquake"], [44, "stone_edge"], [52, "hyper_beam"]]},
+  "pupitar": {"name": "沙基拉斯", "dex": 247, "types": ["rock", "ground"], "base": {"hp": 70, "atk": 84, "def": 70, "spa": 65, "spd": 70, "spe": 51}, "catch_rate": 45, "evolve": {"to": "tyranitar", "level": 55}, "learnset_ref": "larvitar"},
+  "tyranitar": {"name": "班基拉斯", "dex": 248, "types": ["rock", "dark"], "base": {"hp": 100, "atk": 134, "def": 110, "spa": 95, "spd": 100, "spe": 61}, "catch_rate": 45, "learnset_ref": "larvitar", "learnset_extra": [[55, "dragon_dance"]]}
+}

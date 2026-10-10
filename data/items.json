@@ -1,0 +1,11 @@
+{
+  "poke_ball": {"name": "精灵球", "kind": "ball", "ball": 1.0, "price": 200, "desc": "最基础的精灵球，捕获倍率 ×1。"},
+  "great_ball": {"name": "超级球", "kind": "ball", "ball": 1.5, "price": 600, "desc": "性能更好的精灵球，捕获倍率 ×1.5。"},
+  "ultra_ball": {"name": "高级球", "kind": "ball", "ball": 2.0, "price": 1200, "desc": "高性能精灵球，捕获倍率 ×2。"},
+  "master_ball": {"name": "大师球", "kind": "ball", "ball": 255.0, "price": 0, "shop": false, "desc": "必定捕获任何宝可梦。只能通过挑战获得。"},
+  "potion": {"name": "伤药", "kind": "heal", "amount": 0.3, "price": 300, "desc": "恢复 30% 最大 HP。"},
+  "super_potion": {"name": "好伤药", "kind": "heal", "amount": 0.6, "price": 700, "desc": "恢复 60% 最大 HP。"},
+  "max_potion": {"name": "全满药", "kind": "heal", "amount": 1.0, "price": 2500, "desc": "完全恢复 HP 并治愈异常状态。"},
+  "revive": {"name": "活力碎片", "kind": "revive", "amount": 0.5, "price": 1500, "desc": "让濒死的宝可梦复活，恢复 50% HP。"},
+  "rare_candy": {"name": "神奇糖果", "kind": "candy", "price": 4000, "desc": "使用后宝可梦立刻提升 1 级。"}
+}

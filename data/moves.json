@@ -1,0 +1,108 @@
+{
+  "tackle": {"name": "撞击", "type": "normal", "cat": "physical", "power": 40, "acc": 100},
+  "scratch": {"name": "抓", "type": "normal", "cat": "physical", "power": 40, "acc": 100},
+  "growl": {"name": "叫声", "type": "normal", "cat": "status", "power": 0, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"atk": -1}, "chance": 100}]},
+  "tail_whip": {"name": "摇尾巴", "type": "normal", "cat": "status", "power": 0, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"def": -1}, "chance": 100}]},
+  "harden": {"name": "变硬", "type": "normal", "cat": "status", "power": 0, "acc": 0, "effects": [{"kind": "stat", "target": "self", "stats": {"def": 1}, "chance": 100}]},
+  "defense_curl": {"name": "变圆", "type": "normal", "cat": "status", "power": 0, "acc": 0, "effects": [{"kind": "stat", "target": "self", "stats": {"def": 1}, "chance": 100}]},
+  "splash": {"name": "跃起", "type": "normal", "cat": "status", "power": 0, "acc": 0},
+  "quick_attack": {"name": "电光一闪", "type": "normal", "cat": "physical", "power": 40, "acc": 100, "priority": 1},
+  "headbutt": {"name": "头锤", "type": "normal", "cat": "physical", "power": 70, "acc": 100},
+  "take_down": {"name": "猛撞", "type": "normal", "cat": "physical", "power": 90, "acc": 85, "effects": [{"kind": "recoil", "amount": 0.25}]},
+  "body_slam": {"name": "泰山压顶", "type": "normal", "cat": "physical", "power": 85, "acc": 100, "effects": [{"kind": "status", "status": "paralysis", "chance": 30}]},
+  "slash": {"name": "劈开", "type": "normal", "cat": "physical", "power": 70, "acc": 100, "crit": 1},
+  "hyper_beam": {"name": "破坏光线", "type": "normal", "cat": "special", "power": 150, "acc": 90},
+  "swords_dance": {"name": "剑舞", "type": "normal", "cat": "status", "power": 0, "acc": 0, "effects": [{"kind": "stat", "target": "self", "stats": {"atk": 2}, "chance": 100}]},
+  "recover": {"name": "自我再生", "type": "normal", "cat": "status", "power": 0, "acc": 0, "effects": [{"kind": "heal", "amount": 0.5}]},
+  "sing": {"name": "唱歌", "type": "normal", "cat": "status", "power": 0, "acc": 55, "effects": [{"kind": "status", "status": "sleep", "chance": 100}]},
+
+  "ember": {"name": "火花", "type": "fire", "cat": "special", "power": 40, "acc": 100, "effects": [{"kind": "status", "status": "burn", "chance": 10}]},
+  "fire_fang": {"name": "火焰牙", "type": "fire", "cat": "physical", "power": 65, "acc": 95, "effects": [{"kind": "status", "status": "burn", "chance": 10}]},
+  "flamethrower": {"name": "喷射火焰", "type": "fire", "cat": "special", "power": 90, "acc": 100, "effects": [{"kind": "status", "status": "burn", "chance": 10}]},
+  "fire_blast": {"name": "大字爆炎", "type": "fire", "cat": "special", "power": 110, "acc": 85, "effects": [{"kind": "status", "status": "burn", "chance": 10}]},
+  "flare_blitz": {"name": "闪焰冲锋", "type": "fire", "cat": "physical", "power": 120, "acc": 100, "effects": [{"kind": "recoil", "amount": 0.33}, {"kind": "status", "status": "burn", "chance": 10}]},
+
+  "water_gun": {"name": "水枪", "type": "water", "cat": "special", "power": 40, "acc": 100},
+  "bubble_beam": {"name": "泡沫光线", "type": "water", "cat": "special", "power": 65, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"spe": -1}, "chance": 10}]},
+  "aqua_tail": {"name": "水流尾", "type": "water", "cat": "physical", "power": 90, "acc": 90},
+  "surf": {"name": "冲浪", "type": "water", "cat": "special", "power": 90, "acc": 100},
+  "hydro_pump": {"name": "水炮", "type": "water", "cat": "special", "power": 110, "acc": 80},
+
+  "absorb": {"name": "吸取", "type": "grass", "cat": "special", "power": 20, "acc": 100, "effects": [{"kind": "drain", "amount": 0.5}]},
+  "vine_whip": {"name": "藤鞭", "type": "grass", "cat": "physical", "power": 45, "acc": 100},
+  "mega_drain": {"name": "超级吸取", "type": "grass", "cat": "special", "power": 40, "acc": 100, "effects": [{"kind": "drain", "amount": 0.5}]},
+  "razor_leaf": {"name": "飞叶快刀", "type": "grass", "cat": "physical", "power": 55, "acc": 95, "crit": 1},
+  "giga_drain": {"name": "终极吸取", "type": "grass", "cat": "special", "power": 75, "acc": 100, "effects": [{"kind": "drain", "amount": 0.5}]},
+  "solar_beam": {"name": "日光束", "type": "grass", "cat": "special", "power": 120, "acc": 100},
+  "sleep_powder": {"name": "催眠粉", "type": "grass", "cat": "status", "power": 0, "acc": 75, "effects": [{"kind": "status", "status": "sleep", "chance": 100}]},
+
+  "thunder_shock": {"name": "电击", "type": "electric", "cat": "special", "power": 40, "acc": 100, "effects": [{"kind": "status", "status": "paralysis", "chance": 10}]},
+  "thunder_punch": {"name": "雷电拳", "type": "electric", "cat": "physical", "power": 75, "acc": 100, "effects": [{"kind": "status", "status": "paralysis", "chance": 10}]},
+  "thunderbolt": {"name": "十万伏特", "type": "electric", "cat": "special", "power": 90, "acc": 100, "effects": [{"kind": "status", "status": "paralysis", "chance": 10}]},
+  "thunder": {"name": "打雷", "type": "electric", "cat": "special", "power": 110, "acc": 70, "effects": [{"kind": "status", "status": "paralysis", "chance": 30}]},
+  "thunder_wave": {"name": "电磁波", "type": "electric", "cat": "status", "power": 0, "acc": 90, "effects": [{"kind": "status", "status": "paralysis", "chance": 100}]},
+
+  "ice_shard": {"name": "冰砾", "type": "ice", "cat": "physical", "power": 40, "acc": 100, "priority": 1},
+  "aurora_beam": {"name": "极光束", "type": "ice", "cat": "special", "power": 65, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"atk": -1}, "chance": 10}]},
+  "ice_punch": {"name": "冰冻拳", "type": "ice", "cat": "physical", "power": 75, "acc": 100, "effects": [{"kind": "status", "status": "freeze", "chance": 10}]},
+  "ice_beam": {"name": "冰冻光线", "type": "ice", "cat": "special", "power": 90, "acc": 100, "effects": [{"kind": "status", "status": "freeze", "chance": 10}]},
+  "blizzard": {"name": "暴风雪", "type": "ice", "cat": "special", "power": 110, "acc": 70, "effects": [{"kind": "status", "status": "freeze", "chance": 10}]},
+
+  "low_kick": {"name": "踢倒", "type": "fighting", "cat": "physical", "power": 50, "acc": 100},
+  "karate_chop": {"name": "空手劈", "type": "fighting", "cat": "physical", "power": 50, "acc": 100, "crit": 1},
+  "cross_chop": {"name": "十字劈", "type": "fighting", "cat": "physical", "power": 100, "acc": 80, "crit": 1},
+  "close_combat": {"name": "近身战", "type": "fighting", "cat": "physical", "power": 120, "acc": 100, "effects": [{"kind": "stat", "target": "self", "stats": {"def": -1, "spd": -1}, "chance": 100}]},
+  "bulk_up": {"name": "健美", "type": "fighting", "cat": "status", "power": 0, "acc": 0, "effects": [{"kind": "stat", "target": "self", "stats": {"atk": 1, "def": 1}, "chance": 100}]},
+
+  "poison_sting": {"name": "毒针", "type": "poison", "cat": "physical", "power": 15, "acc": 100, "effects": [{"kind": "status", "status": "poison", "chance": 30}]},
+  "poison_powder": {"name": "毒粉", "type": "poison", "cat": "status", "power": 0, "acc": 75, "effects": [{"kind": "status", "status": "poison", "chance": 100}]},
+  "sludge_bomb": {"name": "污泥炸弹", "type": "poison", "cat": "special", "power": 90, "acc": 100, "effects": [{"kind": "status", "status": "poison", "chance": 30}]},
+
+  "mud_shot": {"name": "泥巴射击", "type": "ground", "cat": "special", "power": 55, "acc": 95, "effects": [{"kind": "stat", "target": "foe", "stats": {"spe": -1}, "chance": 100}]},
+  "bone_club": {"name": "骨棒", "type": "ground", "cat": "physical", "power": 65, "acc": 85},
+  "dig": {"name": "挖洞", "type": "ground", "cat": "physical", "power": 80, "acc": 100},
+  "bonemerang": {"name": "骨头回力镖", "type": "ground", "cat": "physical", "power": 100, "acc": 90},
+  "earthquake": {"name": "地震", "type": "ground", "cat": "physical", "power": 100, "acc": 100},
+
+  "peck": {"name": "啄", "type": "flying", "cat": "physical", "power": 35, "acc": 100},
+  "gust": {"name": "起风", "type": "flying", "cat": "special", "power": 40, "acc": 100},
+  "wing_attack": {"name": "翅膀攻击", "type": "flying", "cat": "physical", "power": 60, "acc": 100},
+  "air_slash": {"name": "空气斩", "type": "flying", "cat": "special", "power": 75, "acc": 95},
+  "brave_bird": {"name": "勇鸟猛攻", "type": "flying", "cat": "physical", "power": 120, "acc": 100, "effects": [{"kind": "recoil", "amount": 0.33}]},
+
+  "confusion": {"name": "念力", "type": "psychic", "cat": "special", "power": 50, "acc": 100},
+  "psybeam": {"name": "幻象光线", "type": "psychic", "cat": "special", "power": 65, "acc": 100},
+  "psychic": {"name": "精神强念", "type": "psychic", "cat": "special", "power": 90, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"spd": -1}, "chance": 10}]},
+  "hypnosis": {"name": "催眠术", "type": "psychic", "cat": "status", "power": 0, "acc": 60, "effects": [{"kind": "status", "status": "sleep", "chance": 100}]},
+  "calm_mind": {"name": "冥想", "type": "psychic", "cat": "status", "power": 0, "acc": 0, "effects": [{"kind": "stat", "target": "self", "stats": {"spa": 1, "spd": 1}, "chance": 100}]},
+
+  "string_shot": {"name": "吐丝", "type": "bug", "cat": "status", "power": 0, "acc": 95, "effects": [{"kind": "stat", "target": "foe", "stats": {"spe": -2}, "chance": 100}]},
+  "bug_bite": {"name": "虫咬", "type": "bug", "cat": "physical", "power": 60, "acc": 100},
+  "leech_life": {"name": "吸血", "type": "bug", "cat": "physical", "power": 80, "acc": 100, "effects": [{"kind": "drain", "amount": 0.5}]},
+  "x_scissor": {"name": "十字剪", "type": "bug", "cat": "physical", "power": 80, "acc": 100},
+
+  "rock_throw": {"name": "落石", "type": "rock", "cat": "physical", "power": 50, "acc": 90},
+  "ancient_power": {"name": "原始之力", "type": "rock", "cat": "special", "power": 60, "acc": 100, "effects": [{"kind": "stat", "target": "self", "stats": {"atk": 1, "def": 1, "spa": 1, "spd": 1, "spe": 1}, "chance": 10}]},
+  "rock_slide": {"name": "岩崩", "type": "rock", "cat": "physical", "power": 75, "acc": 90},
+  "stone_edge": {"name": "尖石攻击", "type": "rock", "cat": "physical", "power": 100, "acc": 80, "crit": 1},
+
+  "lick": {"name": "舌舔", "type": "ghost", "cat": "physical", "power": 30, "acc": 100, "effects": [{"kind": "status", "status": "paralysis", "chance": 30}]},
+  "shadow_claw": {"name": "暗影爪", "type": "ghost", "cat": "physical", "power": 70, "acc": 100, "crit": 1},
+  "shadow_ball": {"name": "暗影球", "type": "ghost", "cat": "special", "power": 80, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"spd": -1}, "chance": 20}]},
+
+  "dragon_breath": {"name": "龙息", "type": "dragon", "cat": "special", "power": 60, "acc": 100, "effects": [{"kind": "status", "status": "paralysis", "chance": 30}]},
+  "dragon_claw": {"name": "龙爪", "type": "dragon", "cat": "physical", "power": 80, "acc": 100},
+  "dragon_dance": {"name": "龙之舞", "type": "dragon", "cat": "status", "power": 0, "acc": 0, "effects": [{"kind": "stat", "target": "self", "stats": {"atk": 1, "spe": 1}, "chance": 100}]},
+  "outrage": {"name": "逆鳞", "type": "dragon", "cat": "physical", "power": 120, "acc": 100},
+
+  "bite": {"name": "咬住", "type": "dark", "cat": "physical", "power": 60, "acc": 100},
+  "crunch": {"name": "咬碎", "type": "dark", "cat": "physical", "power": 80, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"def": -1}, "chance": 20}]},
+  "dark_pulse": {"name": "恶之波动", "type": "dark", "cat": "special", "power": 80, "acc": 100},
+
+  "metal_claw": {"name": "金属爪", "type": "steel", "cat": "physical", "power": 50, "acc": 95, "effects": [{"kind": "stat", "target": "self", "stats": {"atk": 1}, "chance": 10}]},
+  "iron_tail": {"name": "铁尾", "type": "steel", "cat": "physical", "power": 100, "acc": 75, "effects": [{"kind": "stat", "target": "foe", "stats": {"def": -1}, "chance": 30}]},
+  "flash_cannon": {"name": "加农光炮", "type": "steel", "cat": "special", "power": 80, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"spd": -1}, "chance": 10}]},
+
+  "fairy_wind": {"name": "妖精之风", "type": "fairy", "cat": "special", "power": 40, "acc": 100},
+  "moonblast": {"name": "月亮之力", "type": "fairy", "cat": "special", "power": 95, "acc": 100, "effects": [{"kind": "stat", "target": "foe", "stats": {"spa": -1}, "chance": 30}]}
+}
